@@ -2,7 +2,7 @@ package projeto04;
 
 public class Aluno {
 	String nome;
-	double nota1, nota2;
+	double nota1, nota2, media = 0;
 	
 	public Aluno(String nome, double nota1, double nota2) {
 		this.nome = nome;
@@ -11,10 +11,18 @@ public class Aluno {
 	}
 	
 	public double calcularMedia() {
-		return (nota1 + nota2) / 2; 
+		return media = (nota1 + nota2) / 2; 
 	}
 	
 	public void verificarSituacao() {
-		System.out.println("");
+	 if(media >= 7){
+	 	System.out.println("Aprovado.");
+	 	}
+	 else if(media >= 5){
+	 	System.out.println("Recuperação");
+	 	}
+	 else{
+	 	System.out.println("Reprovado");
+		 }
 	}
 }
