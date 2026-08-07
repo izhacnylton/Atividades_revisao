@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class Atividade04 {
     public static void main(String[] args) {
         Map<String, Double> produtos = new HashMap<>();
 
