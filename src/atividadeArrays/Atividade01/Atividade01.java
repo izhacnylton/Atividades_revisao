@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Atividade01 {
     public static void main(String[] args) {
         List<String> alunos = new ArrayList<>();
         
