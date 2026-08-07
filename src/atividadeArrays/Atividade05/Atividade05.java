@@ -13,7 +13,7 @@ class Usuario implements Autenticavel {
     }
 }
 
-public class Main{
+public class Atividade05 {
     
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
